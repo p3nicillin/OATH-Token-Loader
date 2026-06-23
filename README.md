@@ -39,11 +39,13 @@ CLIENT_SECRET=your-client-secret
 
 **3. Prepare your tokens**
 
-Edit `tokens.csv` with your token data:
+Copy `tokens.example.csv` to `tokens.csv` and fill in your real data:
 ```
 serial_number,seed,user
 1234567890,JBSWY3DPEHPK3PXP,user@yourdomain.com
 ```
+
+> `tokens.csv` is git-ignored and will never be committed.
 
 - `serial_number` — the serial number printed on the token
 - `seed` — the secret seed (Base32 or hex, both accepted)
